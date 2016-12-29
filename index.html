@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Practice</title>
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <!-- endinject -->
+</head>
+
+<body>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <div class="all">
+        <h1>Practice</h1>
+        <h2>Calculation</h2>
+        <h3>Add</h3>
+        <input id="firstNumber"> Enter a number here.
+        </input>
+        <input id="secondNumber"> Enter a second number.
+        </input>
+        <button onclick="calcFunction()">Calculate</button>
+        <p id="result"></p>
+        <h3>Subtract</h3>
+        <input id="subtractFirstNumber"> Enter a number here.
+        </input>
+        <input id="subtractSecondNumber"> Enter a second number.
+        </input>
+        <button onclick="subtractFunction()">Calculate</button>
+        <p id="subtractResult"></p>
+        <h3>Multiply</h3>
+        <input id="multiplyFirstNumber"> Enter a number here.
+        </input>
+        <input id="multiplySecondNumber"> Enter a second number.
+        </input>
+        <button onclick="multiplyFunction()">Calculate</button>
+        <p id="multiplyResult"></p>
+        <h3>Divide</h3>
+        <input id="divideFirstNumber"> Enter a number here.
+        </input>
+        <input id="divideSecondNumber"> Enter a second number.
+        </input>
+        <button onclick="divideFunction()">Calculate</button>
+        <p id="divideResult"></p>
+    </div>
+    <!-- inject:js -->
+    <script src="/app/app.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>
